@@ -54,7 +54,6 @@ export default function App() {
           <Confetti count={70} />
           <FloatingHearts count={18} />
 
-          {/* Song player, top right */}
           <div className="player">
             <button
               className="player-toggle"

@@ -41,7 +41,6 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
           </linearGradient>
         </defs>
 
-        {/* Wings */}
         <g className="wing wing-l">
           <ellipse
             cx="92"
@@ -69,17 +68,14 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
           />
         </g>
 
-        {/* Legs */}
         <ellipse cx="118" cy="294" rx="22" ry="17" fill="#c68a5a" />
         <ellipse cx="182" cy="294" rx="22" ry="17" fill="#c68a5a" />
         <ellipse cx="118" cy="298" rx="11" ry="8" fill="#e8c39e" />
         <ellipse cx="182" cy="298" rx="11" ry="8" fill="#e8c39e" />
 
-        {/* Body */}
         <ellipse cx="150" cy="215" rx="52" ry="60" fill="#c68a5a" />
         <ellipse cx="150" cy="225" rx="32" ry="38" fill="#e8c39e" />
 
-        {/* Tutu */}
         <path
           d="M105 228 Q150 248 195 228 L222 284 Q150 304 78 284 Z"
           fill="#ff8fbf"
@@ -92,7 +88,6 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
           opacity="0.7"
         />
 
-        {/* Left arm */}
         <ellipse
           cx="98"
           cy="205"
@@ -102,19 +97,16 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
           fill="#c68a5a"
         />
 
-        {/* Ears */}
         <circle cx="105" cy="78" r="21" fill="#c68a5a" />
         <circle cx="195" cy="78" r="21" fill="#c68a5a" />
         <circle cx="105" cy="78" r="11" fill="#e8c39e" />
         <circle cx="195" cy="78" r="11" fill="#e8c39e" />
 
-        {/* Head */}
         <circle cx="150" cy="120" r="55" fill="#c68a5a" />
         <ellipse cx="150" cy="138" rx="24" ry="19" fill="#e8c39e" />
         <circle cx="115" cy="136" r="9" fill="#ff9ec7" opacity="0.55" />
         <circle cx="185" cy="136" r="9" fill="#ff9ec7" opacity="0.55" />
 
-        {/* Face */}
         <g className="eyes">
           <circle cx="130" cy="112" r="6" fill="#3b1a2b" />
           <circle cx="170" cy="112" r="6" fill="#3b1a2b" />
@@ -130,7 +122,6 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
           strokeLinecap="round"
         />
 
-        {/* Tiara */}
         <path
           d="M127 70 L134 50 L150 63 L166 50 L173 70 Z"
           fill="#f6c667"
@@ -140,7 +131,6 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
         />
         <circle cx="150" cy="60" r="3" fill="#ff6fa5" />
 
-        {/* Right arm + wand */}
         <ellipse
           cx="215"
           cy="168"
@@ -171,7 +161,6 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
           </g>
         </g>
 
-        {/* Sparkles */}
         {SPARKLES.map((s, i) => (
           <path
             key={i}
@@ -184,7 +173,6 @@ export default function TeddyFairy({ casting, onCast }: TeddyFairyProps) {
         ))}
       </svg>
 
-      {/* Magic burst from the wand star */}
       {BURST.map((b) => (
         <span
           key={b.id}
